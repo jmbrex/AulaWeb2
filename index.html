@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="JS/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h2 class="TableTitle">Order</h2>
+        </div>
+    </header>
+    <section class="Site">
+        
+        <div class="content">
+            <hr>
+            <table class="table">
+                <thead>
+                    <tr class="coluns">
+                        <th class="colunsTitle">User</th>
+                        <th class="colunsTitle">Product</th>
+                        <th class="colunsTitle">Value</th>
+                        <th class="colunsTitle">quantidade</th>
+                        <th class="colunsTitle">Final Value</th>
+                    </tr>
+                </thead>
+                <tbody class="tableBody">
+                    <tr class="User">
+                        <td class="infoName" >João</td>
+                        <td class="infoProduct" >BloodBorne</td>
+                        <td class="infoValue" >200</td>
+                        <td class="infoDiscount" >1</td>
+                        <td class="infoFinalValue" ></td>
+                    </tr>
+    
+                    <tr class="User">
+                        <td class="infoName" >Marcos</td>
+                        <td class="infoProduct" >BloodBorne 2 </td>
+                        <td class="infoValue" >250</td>
+                        <td class="infoDiscount" >0</td>
+                        <td class="infoFinalValue" ></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+        </div>
+        <form action="" id="Formcreate">
+            <label for="CreateUser">User name:</label>
+            <input type="text" id="CreateUser" name="CreateUser" required>
+            <br>
+            <label for="CreateProduct">User Product:</label>
+            <input type="text" id="CreateProduct" name="CreateProduct" required>
+            <br>
+            <label for="CreateValue">Value:</label>
+            <input type="text" id="CreateValue" name="CreateValue" required>
+            <br>
+            <label for="CreateQtde">Value:</label>
+            <input type="text" id="CreateQtde" name="CreateQtde" required>
+            
+            <button type="submit" id="BTCreate">teste</button>
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>

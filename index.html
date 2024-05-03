@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
-    <script src="JS/script.js" defer></script>
+    <script type="module" src="JS/script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -47,21 +47,23 @@
             </table>
             <hr>
         </div>
-        <form action="" id="Formcreate">
-            <label for="CreateUser">User name:</label>
-            <input type="text" id="CreateUser" name="CreateUser" required>
-            <br>
-            <label for="CreateProduct">User Product:</label>
-            <input type="text" id="CreateProduct" name="CreateProduct" required>
-            <br>
-            <label for="CreateValue">Value:</label>
-            <input type="text" id="CreateValue" name="CreateValue" required>
-            <br>
-            <label for="CreateQtde">Value:</label>
-            <input type="text" id="CreateQtde" name="CreateQtde" required>
-            
-            <button type="submit" id="BTCreate">teste</button>
-        </form>
+        <div id="CreateDelete">
+            <form action="" id="Formcreate">
+                <label for="CreateUser">User name:</label>
+                <input type="text" id="CreateUser" name="CreateUser" required>
+                <br>
+                <label for="CreateProduct">User Product:</label>
+                <input type="text" id="CreateProduct" name="CreateProduct" required>
+                <br>
+                <label for="CreateValue">Value:</label>
+                <input type="number" id="CreateValue" name="CreateValue" required>
+                <br>
+                <label for="CreateQtde">quantidade:</label>
+                <input type="number" id="CreateQtde" name="CreateQtde" required>
+                <button type="submit" id="BTCreate">Adicionar</button>
+            </form>
+            <button id="BTClear">Clear table</button>
+        </div>
     </section>
     <footer></footer>
 </body>

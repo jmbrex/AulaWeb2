@@ -99,8 +99,25 @@ table {
     margin-bottom: 5%;
     min-width: 40%;
     padding: 2%;
-
-
-    
 }
 
+#CreateDelete{
+    display: flex;
+    flex-direction: row;
+}
+
+#BTClear{
+    margin-left: 5%;
+    margin-top: 1%;
+    width: auto;
+    height: 100%;
+    padding: 1%;
+}
+
+.Translucent{
+    transition: 1s;
+    opacity: 0;
+    scale: 0.0;
+    background-color: blueviolet;
+    
+}
